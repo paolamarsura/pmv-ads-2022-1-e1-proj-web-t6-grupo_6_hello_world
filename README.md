@@ -1,23 +1,26 @@
-# TÍTULO DO PROJETO
+# PORTAL "HELLO WORLD"
 
-`CURSO`
+`CURSO`: Análise e Desenvolvimento de Sistemas
 
-`DISCIPLINA`
+`DISCIPLINA`:Desenvolvimento de Aplicação Web Front-End 
 
-`SEMESTRE`
+`SEMESTRE`: 01/2022
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+A finalidade do projeto consiste na criação de um portal que apresente ferramentas de fácil utilização e conteúdo acessível, que permita ao iniciante na programação um direcionamento mais simples e ágil nas mais diversas áreas, incentivando a capacitação profissional de todos os interessados. 
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Bárbara Benedetti Cavalcanti
+* Frederico Gonçalves da Silva Júnior
+* Jair Juno da Silva
+* Marcelo Amorim Barbosa
+* Paola Marsura Verreski de Oliveira
+* Stefanny Rodrigues Silva
+* Waldirene Noronha Rodrigues Braga
 
 ## Orientador
 
-* Nome completo do professor 1
+* Nathália Assis Valentim
 
 ## Instruções de utilização
 
