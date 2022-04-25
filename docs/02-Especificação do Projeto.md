@@ -2,15 +2,49 @@
 
 <span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+A definição exata do problema e os pontos mais relevantes a serem tratados neste projeto foi consolidada com a participação dos usuários em um trabalho de imersão feita pelos membros da equipe a partir da observação dos usuários em seu local natural e por meio de entrevistas. Os detalhes levantados nesse processo foram consolidados na forma de personas e histórias de usuários.
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+As personas levantadas durante o processo de entendimento do problema são apresentadas na Figuras que se seguem.
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+Waldirene Braga - 	Idade: 46 anos
+Ocupação: advogada, é sócia de um escritório que atua com Direito de Empresa e Tributário . 	
+Aplicativos:●	Instagram, ●	Linkedin, ●	GitHub
+Motivações
+●	Precisa de conhecimentos de análise e desenvolvimento de sistema no seu trabalho
+●	Gosta de inovações e procedimentos que possam agregar, facilitando rotinas repetitivas.
+	Frustrações
+●	Dificuldade em entender qual a habilidade técnica necessária que proporcionará melhoria no seu trabalho.
+●	Não conseguir criar procedimentos para agilizar a execução do seu trabalho.	Hobbies, História
+●	Adora ler livros e pesquisar sobre inovações tecnológicas
+
+Jair Silva - Idade: 42 anos
+Ocupação: Engenheiro Mecânico, funcionário de uma multinacional do setor da indústria automotiva. 
+Aplicativos:●	Instagram, ●	LinkedIn, ●	Aplicativos de bancos, ●	Github
+Motivações
+●	Busca conhecimentos em Análise e Desenvolvimento de Sistema com objetivo em migrar para o setor de tecnologia.
+●	Inovações e procedimentos tecnológicos são essenciais no setor de atuação assim como para o objetivo proposto.
+	Frustrações
+●	Dificuldade em identificar em qual do vasto seguimento de tecnologia irá melhor se identificar para a migração.
+	Hobbies, História
+●	Inovações e tecnológicas são de contato diário e de interesse pessoal e profissional. 
+●	A prática de esportes como Ciclismo (MTB), caminhadas e atividade física em academia são indispensáveis para a qualidade de vida.
+
+
+Stefanny Silva - 	Idade: 22 anos
+Ocupação: Universitária. 
+Aplicativos: ●	Instagram, ●	Facebook, ●	Discord, ●	Clash Royale
+Motivações
+●	Deseja entrar no mercado de trabalho já em uma das profissões com maior expectativa de crescimento.
+●	Gosta de criar jogos que conectem pessoas e permita conhecer novas culturas.
+	Frustrações
+●	Dificuldade para entender termos técnicos da área.
+●	Pouco conhecimento sobre as principais competências necessárias para se tornar um desenvolvedor
+●	Falta de informações sobre como utilizar as redes sociais e portfólio para se destacar entre os demais.
+	Hobbies, História
+●	Jogar diferentes jogos ao longo do dia, ouvir música e ler diferentes gêneros literários.
+
 
 > **Links Úteis**:
 > - [Rock Content](https://rockcontent.com/blog/personas/)
@@ -24,14 +58,18 @@ Lembre-se que você deve ser enumerar e descrever precisamente e personalizada t
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+WALDIRENE BRAGA
+Deseja compreender qual área de desenvolvimento e sistemas poderá ser útil para execução das tarefas necessárias em seu trabalho, para maior agilidade e qualidade na execução das suas atividades diárias
+Deseja escolher cursos específicos que possam desenvolver a habilidade com programação, para não desperdiçar recursos em cursos que não vão agregar o conhecimento necessário. 
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+JAIR SILVA
+Busca conhecimentos em Análise e Desenvolvimento de Sistema para migrar para o setor de tecnologia.
+Busca acesso a conteúdos sobre metodologias ágeis para encontrar a melhor forma de se inserir no mercado de trabalho.
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
+STEFANNY SILVA
+Busca aprender sobre como é o marketing pessoal para desenvolvedores que utilizam ferramentas como Linkedin, Github e sites específicos de vagas, para encontrar a melhor forma para se inserir no mercado de trabalho
+Busca encontrar um plataforma de estudos focada em quem está iniciando na programação	Para receber um conteúdo feito para os iniciantes, sem utilização de termos técnicos que dificultam o entendimento
+
 
 > **Links Úteis**:
 > - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
