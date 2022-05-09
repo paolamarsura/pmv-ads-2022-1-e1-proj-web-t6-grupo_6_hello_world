@@ -1,0 +1,4 @@
+.cartao__botao--play::before {
+    content: "\e90b";
+    font-size: 24px;
+}

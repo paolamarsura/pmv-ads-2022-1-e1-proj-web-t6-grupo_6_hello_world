@@ -1,0 +1,4 @@
+.menu-lateral--ativo {
+    left: 0;
+    transition: .25s;
+}
