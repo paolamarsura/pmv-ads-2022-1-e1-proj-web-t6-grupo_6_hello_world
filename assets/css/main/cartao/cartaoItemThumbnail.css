@@ -1,0 +1,6 @@
+@media screen and (min-width: 1000px) {
+    .cartao__item-thumbnail {
+        width: 32px;
+        grid-row: span 2;
+    }
+}

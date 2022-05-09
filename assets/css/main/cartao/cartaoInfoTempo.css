@@ -1,0 +1,4 @@
+.cartao__info--tempo::before {
+    content: "\e90c";
+    margin-right: 8px;
+}

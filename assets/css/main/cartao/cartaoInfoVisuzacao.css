@@ -1,0 +1,4 @@
+.cartao__info--visualizacao::before {
+    content: "\e90f";
+    margin-right: 8px;
+}
