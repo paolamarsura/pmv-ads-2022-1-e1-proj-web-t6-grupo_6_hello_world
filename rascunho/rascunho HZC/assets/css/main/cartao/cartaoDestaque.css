@@ -1,0 +1,9 @@
+.cartao--destaque {
+    margin-bottom: 16px;
+}
+
+@media screen and (min-width: 1000px) {
+    .cartao--destaque {
+        margin-bottom: 0;
+    }
+}

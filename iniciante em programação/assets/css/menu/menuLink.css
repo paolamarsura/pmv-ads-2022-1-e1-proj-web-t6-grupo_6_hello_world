@@ -1,0 +1,19 @@
+.menuLink {
+    color: pink;
+    margin-right: 1.25rem;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+.menuLinkAtivo {
+    color: yellow;
+    font-weight: bold;
+}
+
+.menuLink:last-child {
+    margin-right: none;
+}
+
+.menuLink:hover {
+    text-decoration: underline;
+}
