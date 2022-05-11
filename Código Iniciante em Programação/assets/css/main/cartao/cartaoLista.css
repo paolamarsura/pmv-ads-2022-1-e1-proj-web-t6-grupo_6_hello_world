@@ -1,7 +1,0 @@
-@media screen and (min-width: 1000px) {
-    .cartao__lista {
-        display: grid;
-        row-gap: 16px;
-        grid-column: span 2;
-    }
-}
