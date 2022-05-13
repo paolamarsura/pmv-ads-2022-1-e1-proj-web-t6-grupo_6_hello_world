@@ -4,6 +4,20 @@
 
 Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
 
+![image](https://user-images.githubusercontent.com/103156976/168191912-146f97d7-ff47-47ec-9d16-fc3b414c5785.png)
+
+Template padrão WEB:
+
+![image](https://user-images.githubusercontent.com/103156976/168191703-fef70991-04db-4953-8b7b-7598558035a8.png)
+
+Template padrão SMARTPHONE: 
+
+![image](https://user-images.githubusercontent.com/103156976/168191781-1d304c4e-078f-45b2-8a2c-6fe125d4d843.png)
+
+Template padrão TABLET:
+
+![image](https://user-images.githubusercontent.com/103156976/168191826-5d77a638-a81f-49ff-8b1e-50f532b082b5.png)
+
 > **Links Úteis**:
 >
 > - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
