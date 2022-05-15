@@ -42,7 +42,8 @@ Figura 5 - Tela de Conhecendo a profissão
 Tela – Área Profissional
 Esta tela apresenta o conteúdo relativo a cada profissão, trazendo a oção de acesso à próxima tela, que corresponde à trilha de aprendizagem correspondente a cada área. 
 
-![image](https://user-images.githubusercontent.com/103156976/168488655-fb725201-a2a6-4381-9c0e-18ec77c1a710.png 
+![image](https://user-images.githubusercontent.com/103156976/168488838-45fe4f15-eb32-4ee4-8162-b91926e4c906.png)
+
 Figura 6 – Área Profissional
 
 Tela – Trilhas de aprendizagem
