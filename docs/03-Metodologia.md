@@ -1,77 +1,69 @@
 
-# Metodologia
+3.	Metodologia
+A metodologia contempla as definições de ferramental utilizado pela equipe tanto para a manutenção dos códigos e demais artefatos quanto para a organização do time na execução das tarefas do projeto.
+Relação de Ambientes de Trabalho
+Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue. 
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
+Ambiente	Plataforma	Link de Acesso
+Repositório de código fonte	GitHub	https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/teams/grupo_6_inicianteemprogramacao 
 
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
+Documentos do projeto	Google Drive	https://drive.google.com/drive/folders/1VTd6Rh7aarF7WOoX5eZ7DtapTwaMJ6Dv?usp=sharing
 
-## Controle de Versão
+Projeto de Interface e Wire frames	Canva	https://www.canva.com/design/DAE-swbPoFo/xiVUEiK92wGQP-Hj1q91bA/view 
 
-A ferramenta de controle de versão adotada no projeto foi o
-[Git](https://git-scm.com/), sendo que o [Github](https://github.com)
-foi utilizado para hospedagem do repositório.
+Gerenciamento do Projeto	Trello	https://trello.com/b/ax2AEh0a/front-end
 
-O projeto segue a seguinte convenção para o nome de branches:
 
-- `main`: versão estável já testada do software
-- `unstable`: versão já testada do software, porém instável
-- `testing`: versão em testes do software
-- `dev`: versão de desenvolvimento do software
+Gestão de código fonte
+Para gestão do código fonte do software desenvolvido pela equipe, o grupo utiliza um processo baseado no Git Flow, mostrado na Figura a seguir. Desta forma, todas as manutenções no código são realizadas em branches separados, identificados como Hotfix, Release, Develop e Feature. Uma explicação rápida sobre este processo é apresentada no link a seguir: "atlassian.com/br/git/tutorials/comparing-workflows/gitflow-workflow".
 
-Quanto à gerência de issues, o projeto adota a seguinte convenção para
-etiquetas:
 
-- `documentation`: melhorias ou acréscimos à documentação
-- `bug`: uma funcionalidade encontra-se com problemas
-- `enhancement`: uma funcionalidade precisa ser melhorada
-- `feature`: uma nova funcionalidade precisa ser introduzida
 
-Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
-
-> **Links Úteis**:
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
->  - [Comparando fluxos de trabalho](https://www.atlassian.com/br/git/tutorials/comparing-workflows)
-> - [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
-> - [The gitflow workflow - in less than 5 mins](https://www.youtube.com/watch?v=1SXpE08hvGs)
-
-## Gerenciamento de Projeto
-
-### Divisão de Papéis
-
-Apresente a divisão de papéis entre os membros do grupo.
-
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu 
-> Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
-
-### Processo
-
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
  
-> **Links Úteis**:
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+Figura X - Fluxo de controle do código fonte no repositório git
 
-### Ferramentas
+Gerenciamento do Projeto
+A equipe utiliza metodologias ágeis, tendo escolhido o Kanban e o Scrum como base para definição do processo de desenvolvimento.
+A equipe está organizada da seguinte maneira:
+●	Scrum Master: Frederico Goncalves Da Silva Junior
+●	Product Owner: Jair Junio da Silva
+●	Equipe de Desenvolvimento
+○	Stefanny Rodrigues Silva
+○	Paola Marsura Verreschi De Oliveira
+○	Barbara Benedetti Cavalcante
+○	Waldirene Noronha Rodrigues Braga
+○	Marcelo Amorim Barbosa Filho
 
-As ferramentas empregadas no projeto são:
+Descrevendo as funções temos:
 
-- Editor de código.
-- Ferramentas de comunicação
-- Ferramentas de desenho de tela (_wireframing_)
+Scrum Master: Ajuda todos os envolvidos a entenderem e abraçarem os valores, princípios e práticas Scrum; Atua como facilitador e mentor do Time de Desenvolvimento, ajudando a solucionar os problemas e fazer o melhor uso do Scrum; tem papel fundamental na remoção dos impedimentos que inibem a equipe a produzir; não tem autoridade para exercer controle sobre a equipe como em modelos tradicionais de lideranças
 
-O editor de código foi escolhido porque ele possui uma integração com o
-sistema de versão. As ferramentas de comunicação utilizadas possuem
-integração semelhante e por isso foram selecionadas. Por fim, para criar
-diagramas utilizamos essa ferramenta por melhor captar as
-necessidades da nossa solução.
+Product Owner: É responsável por definir todos os requisitos do produto, que vai sendo incrementado ao longo do projeto, de acordo com o feedback dado pelo cliente; todo Scrum Team deve possuir apenas um Product Owner, pois é necessário que se tenha somente uma voz de decisão sobre o produto que comunica ao Time de Desenvolvimento essas decisões; é o Dono do Produto que estará em contato frequente com o cliente, buscando constantemente garantir que o produto está seguindo de acordo com o esperado por esse cliente.
+Equipe de Desenvolvimento: São responsáveis por projetar, construir e testar o produto desejado; composta por pessoas com funções e características diversas; é uma equipe que se auto organiza para determinar a melhor maneira de realizar o objetivo definido pelo product owner; a equipe é composta tipicamente por 5 a 9 pessoas.
 
-Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
+Os eventos Scrum são utilizados para criar uma rotina e minimizar qualquer outra reunião que não sejam as definidas pelo Scrum. Todos os eventos Scrum possuem duração máxima e são realizados com transparência e inspeção criteriosa.
+
+Utilizaremos o Daily Scrum que é uma reunião realizada diariamente, durante o ciclo do sprint, no qual os membros do Time de Desenvolvimento conseguem ter visibilidade no trabalho realizado e a realizar, lá deve fluir a comunicação sobre esse trabalho e seus obstáculos para execução (impedimentos).
+
+Definido que os sprints serão semanais com duração de 15 minutos para que a equipe verifique o backlog e prever quantas tarefas conseguirão realizar no sprint.
+
+Para organização e distribuição das tarefas do projeto, a equipe está utilizando o Kanban na plataforma Trello estruturado com as seguintes listas: 
+
+●	Dev: Definir uma linguagem acessível para iniciantes sem o uso de muitos termos técnicos, o site deve permitir compartilhar o link da página nas redes sociais (botão de copiar link no final do arquivo), divulgar sites de compartilhamento de códigos e vagas para que a pessoa conheça as competências necessárias, criar um site acessível (para PcD) e apresentar as competências básicas que devem ser adquiridas.
+●	Docs: Reunir links que serão compartilhados, pesquisar como colocar a pré-visualização em um link no site, definir sugestão de cursos para trilha de aprendizagem do site, definir sugestão de cursos para trilha de aprendizagem do site, coletar dados da diferença da diferença entre os cursos de tecnologia, definir uma linguagem acessível para iniciantes, playlist para estudos, sem o uso de muitos termos técnicos, relatar dia a dia de um desenvolvedor, dicas sobre como se inserir no mercado de trabalho (Linkedin, GitHub e sites de vagas), definir os requisitos funcionais, indicar livros sobre boas práticas como desenvolvedor, dar dicas sobre como entrar no mercado de trabalho através do LinkedIn, GitHub e sites como GeekHunter.
+●	Infra: Monitorar e atuar em correções caso haja registros de erros.
+●	Test: Gravar entrevistas ou coletar depoimentos de pessoas das diversas áreas para colocar no site
+●	Gerenciamento Projeto: Utilizar a metodologia ágil Scrum e Kanban para gerenciamento e atualização semanal do projeto em desenvolvimento. 
+
+O quadro kanban do grupo no Trello está disponível através da URL https://trello.com/b/LupglzUz/tiaw-template e é apresentado, no estado atual, na Figura X. A definição desta estrutura se baseou na proposta feita por Littlefield (2016).
+
  
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [Slack](https://slack.com/)
-> - [Github](https://github.com/)
+Figura X - Tela do kanban utilizada pelo grupo com o Trello
+
+A tarefas são, ainda, etiquetadas em função da natureza da atividade e seguem o seguinte esquema de cores/categorias:
+●	Documentação
+●	Desenvolvimento 
+●	Infraestrutura
+●	Testes
+●	Gerência de Projetos.
+ 
