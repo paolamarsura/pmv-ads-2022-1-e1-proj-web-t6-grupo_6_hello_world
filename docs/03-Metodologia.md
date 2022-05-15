@@ -1,38 +1,51 @@
 
 3.	Metodologia
+
 A metodologia contempla as definições de ferramental utilizado pela equipe tanto para a manutenção dos códigos e demais artefatos quanto para a organização do time na execução das tarefas do projeto.
+
 Relação de Ambientes de Trabalho
+
 Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue. 
 
-Ambiente	Plataforma	Link de Acesso
-Repositório de código fonte	GitHub	https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/teams/grupo_6_inicianteemprogramacao 
+Ambiente: Repositório de código fonte
+Plataforma: GitHub
+Link de Acesso:	https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/teams/grupo_6_inicianteemprogramacao 
 
-Documentos do projeto	Google Drive	https://drive.google.com/drive/folders/1VTd6Rh7aarF7WOoX5eZ7DtapTwaMJ6Dv?usp=sharing
+Ambiente: Documentos do projeto
+Plataforma: Google Drive	
+Link de acesso: https://drive.google.com/drive/folders/1VTd6Rh7aarF7WOoX5eZ7DtapTwaMJ6Dv?usp=sharing
 
-Projeto de Interface e Wire frames	Canva	https://www.canva.com/design/DAE-swbPoFo/xiVUEiK92wGQP-Hj1q91bA/view 
+Ambiente: Projeto de Interface e Wire frames
+Plataforma: Canva	
+Link: https://www.canva.com/design/DAE-swbPoFo/xiVUEiK92wGQP-Hj1q91bA/view 
 
-Gerenciamento do Projeto	Trello	https://trello.com/b/ax2AEh0a/front-end
+Ambiente: Gerenciamento do Projeto
+Plataforma: Trello
+Link: https://trello.com/b/LulWLOEe/portal-devs-website
 
 
 Gestão de código fonte
+
 Para gestão do código fonte do software desenvolvido pela equipe, o grupo utiliza um processo baseado no Git Flow, mostrado na Figura a seguir. Desta forma, todas as manutenções no código são realizadas em branches separados, identificados como Hotfix, Release, Develop e Feature. Uma explicação rápida sobre este processo é apresentada no link a seguir: "atlassian.com/br/git/tutorials/comparing-workflows/gitflow-workflow".
 
-
-
- 
+![image](https://user-images.githubusercontent.com/103156976/168488200-b13c8f85-1539-413e-861d-af816fa21c56.png)
 Figura X - Fluxo de controle do código fonte no repositório git
 
 Gerenciamento do Projeto
+
 A equipe utiliza metodologias ágeis, tendo escolhido o Kanban e o Scrum como base para definição do processo de desenvolvimento.
+
 A equipe está organizada da seguinte maneira:
-●	Scrum Master: Frederico Goncalves Da Silva Junior
+
+●	Scrum Master: Paola Marsura Verreschi de Oliveira
 ●	Product Owner: Jair Junio da Silva
 ●	Equipe de Desenvolvimento
 ○	Stefanny Rodrigues Silva
-○	Paola Marsura Verreschi De Oliveira
+○	Frederico Goncalves Da Silva Junior 
 ○	Barbara Benedetti Cavalcante
 ○	Waldirene Noronha Rodrigues Braga
 ○	Marcelo Amorim Barbosa Filho
+
 
 Descrevendo as funções temos:
 
@@ -55,12 +68,13 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 ●	Test: Gravar entrevistas ou coletar depoimentos de pessoas das diversas áreas para colocar no site
 ●	Gerenciamento Projeto: Utilizar a metodologia ágil Scrum e Kanban para gerenciamento e atualização semanal do projeto em desenvolvimento. 
 
-O quadro kanban do grupo no Trello está disponível através da URL https://trello.com/b/LupglzUz/tiaw-template e é apresentado, no estado atual, na Figura X. A definição desta estrutura se baseou na proposta feita por Littlefield (2016).
+O quadro kanban do grupo no Trello está disponível através da URL https://trello.com/b/LulWLOEe/portal-devs-website e é apresentado, no estado atual, na Figura X. A definição desta estrutura se baseou na proposta feita por Littlefield (2016).
 
- 
+ ![image](https://user-images.githubusercontent.com/103156976/168488380-6a837538-2e8e-46e4-a9ba-456fd4912e4a.png)
 Figura X - Tela do kanban utilizada pelo grupo com o Trello
 
 A tarefas são, ainda, etiquetadas em função da natureza da atividade e seguem o seguinte esquema de cores/categorias:
+
 ●	Documentação
 ●	Desenvolvimento 
 ●	Infraestrutura
