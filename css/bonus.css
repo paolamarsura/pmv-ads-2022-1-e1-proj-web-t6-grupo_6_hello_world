@@ -1,0 +1,118 @@
+    * {
+        background-color: #000;
+        font-family: 'Sanchez', sans-serif;
+    }
+    /* dimensionamento de caixa */
+    
+    *,
+    *::before,
+    *::after .selector-for-some-widget {
+        box-sizing: border-box;
+    }
+    
+    .navbar li {
+        display: inline-block;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 1em;
+        padding-left: 1em;
+        background-color: #000;
+    }
+    
+    .navbar a {
+        color: #BF0436;
+        width: 1em 1em;
+        background-color: #000;
+        text-align: center;
+        display: block;
+        padding: 1em;
+        font-size: 1em;
+        text-transform: uppercase;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    .navbar a:hover {
+        color: #F8D8DD;
+        font-size: 1.1em;
+        cursor: pointer;
+        text-decoration: none;
+    }
+    
+    #icone:hover {
+        width: 4em;
+        height: 4em;
+        cursor: pointer;
+    }
+    
+    #icone:onclick {
+        width: 1em;
+        height: 1em;
+    }
+    
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: white !important;
+    }
+    
+    .carousel {
+        max-width: 70%;
+        height: auto;
+        margin: 0 auto;
+        padding: 1em;
+        position: relative;
+        transition: transform 2s ease, opacity .2s ease-out
+    }
+    
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: white !important;
+    }
+    
+    #playlist,
+    #dicionario,
+    #grupos {
+        color: #BF0436;
+        background-color: #000;
+    }
+    
+    #pplaylist,
+    #ddicionario,
+    #ggrupos {
+        background-color: #000;
+        color: #f8e1e4;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        font-size: 140%;
+    }
+    
+    .img1,
+    .img2,
+    .img3 {
+        width: 15% !important;
+        margin-bottom: 2%;
+        padding: 2%;
+        /* float: left; */
+    }
+    
+    .p1 {
+        margin: 2%;
+        text-align: justify;
+        color: rgb(235, 144, 159);
+        font-size: 120%;
+        text-transform: uppercase;
+    }
+    
+    #button {
+        background: linear-gradient(to bottom, rgba(0, 0, 0, .60), rgba(0, 0, 0, .65));
+        cursor: pointer;
+        /* padding: 5px;
+            margin-top: 3%; */
+        border: 2px solid #111;
+        font-weight: bold;
+        width: 160px;
+        align-items: center;
+        display: block;
+    }
+    
+    .conteudo {
+        text-align: center;
+    }
