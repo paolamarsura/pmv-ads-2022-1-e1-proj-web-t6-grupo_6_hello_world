@@ -13,7 +13,7 @@ A finalidade do projeto consiste na criação de um portal que apresente ferrame
 * Barbara Benedetti Cavalcante
 * Jair Juno da Silva
 * Marcelo Amorim Barbosa
-* Paola Marsura Verreski de Oliveira
+* Paola Marsura Verreschi de Oliveira
 * Stefanny Rodrigues Silva
 * Waldirene Noronha Rodrigues Braga
 
