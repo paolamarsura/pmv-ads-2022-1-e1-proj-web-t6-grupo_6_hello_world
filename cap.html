@@ -1,0 +1,212 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- metatag responsiva -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Auxiliar iniciantes em programação">
+    <meta name="keywords" content="programação, cursos, desenvolvimento de sistemas, inciantes, devs">
+    <meta name="author" content="Barbara, Jair, Marcelo, Paola, Stefanny, Waldirene">
+    <meta http-equiv="refresh" content="60">
+
+    <!-- link cdn bootstrap -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- grid do bootstrap-->
+
+
+    <title>Hello World</title>
+    <link rel="shortcut icon" href="../imagens/coding.png" type="ícone programação">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sanchez&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/cap.css">
+    <link href="carousel.css" rel="stylesheet">
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark d-flex justify-content-between ">
+
+        <div class="navbar-brand">
+            <a href="index.html">
+                <img src=" ../imagens/logo.png " class="img-fluid" width="200px" height="200px" />
+            </a>
+
+        </div>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggleContent" aria-expanded="false" aria-label="Navegação">
+            <span class="navbar-toggler-icon "></span>
+          </button>
+        <div class="collapse navbar-collapse " id="navbarToggle">
+            <ul class="navbar-nav mx-auto ">
+                <li><a href="ns.html">Nossa história</a></li>
+                <li><a href="cap.html">Conhecendo a profissão</a></li>
+                <li><a href="trilhas.html">Trilhas de aprendizagem</a></li>
+                <li><a href="dep.html">Depoimentos</a></li>
+                <li><a href="bonus.html">Bônus</a></li>
+            </ul>
+            <button><img src="../imagens/icone.copia.png " id=icone width="50 " height="50 " ALIGN=CENTER onclick="copyUrlBrowser() " /></button>
+        </div>
+
+    </nav>
+    <div class="container-fluid "><br>
+        <div class="row ">
+
+            <div class="col-md ">
+
+
+                <div id="carouselHOMEPAGE" class="carousel slide "data-ride="carousel">
+                    <ol class="carousel-indicators ">
+                        <li data-target="#carouselHOMEPAGE" data-slide-to="0 " class="active "></li>
+                        <li data-target="#carouselHOMEPAGE" data-slide-to="1 "></li>
+                        <li data-target="#carouselHOMEPAGE" data-slide-to="2 "></li>
+                        <li data-target="#carouselHOMEPAGE" data-slide-to="3 "></li>
+                        <li data-target="#carouselHOMEPAGE" data-slide-to="4 "></li>
+                        <li data-target="#carouselHOMEPAGE" data-slide-to="5 "></li>
+
+
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <a href="#gestaodados">
+                                <img src="../imagens/gestaodados.png " class="d-block w-100 " alt="... ">
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="#gestaoredes">
+                                <img src="../imagens/gestaoredes.png " class="d-block w-100 " alt="... ">
+                            </a>
+                        </div>
+
+                        <div class="carousel-item">
+                            <a href="#dsoftware">
+                                <img src="../imagens/dsoftware.png" class="d-block w-100 " alt="... ">
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="#arquitetoinf">
+                                <img src="../imagens/arquitetoinf.png" class="d-block w-100 " alt="... ">
+                            </a>
+                        </div>
+
+                        <div class="carousel-item">
+                            <a href="#frontbackend">
+                                <img src="../imagens/frontbackend.png" class="d-block w-100 " alt="... ">
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="#mobile">
+                                <img src="../imagens/mobile.png " class="d-block w-100 " alt="... ">
+                            </a>
+                        </div>
+                    </div>
+                    <a href="#carouselHOMEPAGE" class="carousel-control-prev " data-slide="prev">
+                        <span class="carousel-control-prev-icon " aria-hidden="true "></span>
+                        <span class="sr-only ">Anterior</span>
+                    </a>
+                    <a href="#carouselHOMEPAGE" class="carousel-control-next " data-slide="next">
+                        <span class="carousel-control-next-icon " aria-hidden="true "></span>
+                        <span class="sr-only ">Próximo</span>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <main class="conteudo">
+<section id="gestaodados">
+    <h2>GESTÃO DE DADOS</h2>
+    <p> Com o avanço da internet e redes sociais, há compartilhamento de imensa quantidade de dados, que podem ser úteis no contexto
+         de cada organização. Para organizar estes dados e transformá-los em informações úteis ao negócio o profissional administrador
+          de banco de dados é imprescindível. Se você quiser seguir nessa área, saiba que será muito valorizado pelo mercado. 
+          Mas tem que dominar ferramentas específicas, como: Oracle, MySQL,!
+    </p>
+    <div class="teste">
+         <button class="mr-3 btn btn-light"id="button"> OUÇA QUEM JÁ SABE FAZER </button>
+         <button class="btn btn-light"id="button"> QUERO APRENDER MAIS</button>
+    </div>
+</section>
+<section id="gestaoredes">
+    <h2>GESTÃO DE REDES</h2>
+    <p> Redes de comunicação atualmente são fundamentais para o desenvolvimento de qualquer organização. O profissional 
+        de gestão de redes atua desde a avaliação do tipo de rede mais adequada para o negócio, deve entender da parte de hardware,
+        tem que configurar a rede para o perfeito funcionamento, além de atual na manutenção e segurança da rede. É 
+        comum também a avaliação da expansão e atualização  e redes sociais, há compartilhamento de imensa quantidade de dados, que podem ser úteis no contexto
+        de cada organização.  Se você quiser seguir nessa área, saiba que será muito valorizado pelo mercado. 
+        Mas é importante ter certificações específicas como Microsoft Certified Solutions Expert (MCSE) e 
+        Microsoft Certified IT Professional (MCITP)
+    </p>
+    <div class="teste">
+         <button class="mr-3 btn btn-light"id="button"> OUÇA QUEM JÁ SABE FAZER </button>
+         <button class="btn btn-light"id="button"> QUERO APRENDER MAIS</button>
+    </div>
+</section>
+<section id="dsoftware">
+    <h2>DESENVOLVIMENTO DE SOFTWARE </h2>
+    <p> O desenvolvedor de software é o profissional responsável pela programação de sistemas por meio da escrita de 
+        códigos digitais. Pode atuar desde o planejamento e desenvolvimento de projetos, até na atividade de 
+        desenvolvimento de programas para rodar em computadores, celulares e outros sistemas. Também são responsáveis
+        pela manutenção e testagem dos softwares, para que não haja falhas e que os problemas possam ser reapidamente
+        corrigidos. 
+    </p>
+    <div class="teste">
+         <button class="mr-3 btn btn-light"id="button"> OUÇA QUEM JÁ SABE FAZER </button>
+         <button class="btn btn-light"id="button"> QUERO APRENDER MAIS</button>
+    </div>
+</section>
+<section id="arquitetoinf">
+    <h2>>ARQUITETO DA INFORMAÇÃO</h2>
+    <p> Bastante ligado à estruturação de conteudo, e esperado desse profissional que proporcione um acesso descomplicado
+        e acessível do usuário durante o seu contato com uma plataforma digital. Ele precisa ter um envolvimento com criação 
+        criação de fluxograma textual, planejamento do mapa da página, participação direta de protótipos navegáveis,
+        rascunho de disposição de textos de botões, CTAs, toooltips, processo criativo de telas com UX designers. Todas
+        essas funções se aplicam à organização de interfaces digitais diferentes, assim como portais, websites, intranet e mais. 
+    </p>
+    <div class="teste">
+         <button class="mr-3 btn btn-light"id="button"> OUÇA QUEM JÁ SABE FAZER </button>
+         <button class="btn btn-light"id="button"> QUERO APRENDER MAIS</button>
+    </div>
+</section>
+<section id="frontbackend">
+    <h2>>FRONT-END E BACK-END</h2>
+    <p> Apesar de serem igualmente importantes, são atividades distintas. O front-end pode ser definido como a profissão
+        que cuida da apresentação de um site.Ou seja, cuida das partes visuais e da interação entre usuários e tela. Gerencia
+        a usabilidade, o design e a experiência do usuário.
+        
+        Já a parte do back-end é a que cuida dos bastidores, do funcionamento estrutural de uma página. Ou seja, Gerencia
+        o processamento e o envio de dados ao servidor e a conexão com o banco de dados.
+    </p>
+    <div class="teste">
+         <button class="mr-3 btn btn-light"id="button"> OUÇA QUEM JÁ SABE FAZER </button>
+         <button class="btn btn-light"id="button"> QUERO APRENDER MAIS</button>
+    </div>
+</section>    
+<section id="mobile">
+    <h2>>DESENVOLVIMENTO MOBILE</h2>
+    <p> A tecnologia mobile é aquela que permite a movimenbtação do usuário durante o seu uso.
+
+        No meio corporativo, essa mobilidade possibilita uma gestão mais assertiva sobre os negócios, uma vez
+        que permite ao usuário administrar a empresa a qualquer hora e em qualquer lugar. Essa tecnologia deixou 
+        de ser vista como um recurso e passou a ser uma necessidade. E ainda é possível integrar o desktop ao celular, 
+        de forma inovadora, e assim aumentar a produtividade e ainda oferecer uma experiência personalizada para o cliente.
+               
+        O desenvolvedor mobile auxilia a empresa no desenvolvimento de softwares móveis, atendendo a grande demanda 
+        de otimizar tarefas, ajudando na gestão corporativa, além de criar diferenciais competitivos na oferta de soluções
+        funcionais em smartphones.
+    </p>
+    <div class="teste">
+         <button class="mr-3 btn btn-light"id="button"> OUÇA QUEM JÁ SABE FAZER </button>
+         <button class="btn btn-light"id="button"> QUERO APRENDER MAIS</button>
+    </div>
+</section>
+</main>
+
+
+    <!-- link cdn bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl " crossorigin="anonymous "></script>
+</body>
+
+</html>
