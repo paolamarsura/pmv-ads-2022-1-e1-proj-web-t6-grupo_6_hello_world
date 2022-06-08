@@ -10,10 +10,10 @@ A finalidade do projeto consiste na criação de um portal que apresente ferrame
 
 ## Integrantes
 
-* Bárbara Benedetti Cavalcanti
-* Jair Juno da Silva
+* Bárbara Benedetti Cavalcante
+* Jair Junio da Silva
 * Marcelo Amorim Barbosa
-* Paola Marsura Verreski de Oliveira
+* Paola Marsura Verreschi de Oliveira
 * Stefanny Rodrigues Silva
 * Waldirene Noronha Rodrigues Braga
 
