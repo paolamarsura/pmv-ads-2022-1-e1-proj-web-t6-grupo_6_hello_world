@@ -1,7 +1,6 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- metatag responsiva -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Auxiliar iniciantes em programação">
     <meta name="keywords" content="programação, cursos, desenvolvimento de sistemas, inciantes, devs">
@@ -9,23 +8,23 @@
     <meta http-equiv="refresh" content="60">
 
     <!-- link cdn bootstrap -->
-
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- grid do bootstrap-->
 
-
     <title>Hello World</title>
     <link rel="shortcut icon" href="../imagens/coding.png" type="ícone programação">
+    <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sanchez&display=swap" rel="stylesheet">
+    <!-- CSS -->
     <link rel="stylesheet" href="../css/ns.css">
-    <link href="carousel.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/global.css">
+    <!-- --SCROLLREVEAL-- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 
 <body>
-
-
     <nav class="navbar navbar-expand-lg navbar-dark d-flex justify-content-between ">
 
         <div class="navbar-brand">
@@ -35,10 +34,10 @@
 
         </div>
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggleContent" aria-expanded="false" aria-label="Navegação">
-            <span class="navbar-toggler-icon "></span>
-          </button>
-        <div class="collapse navbar-collapse " id="navbarToggle">
+        <button class="navbar-toggler " type="button " data-toggle="collapse " data-target="#navbarToggle " aria-controls="navbarToggleContent " aria-expanded="false " aria-label="Navegação ">
+                        <span class="navbar-toggler-icon "></span>
+                      </button>
+        <div class="collapse navbar-collapse " id="navbarToggle ">
             <ul class="navbar-nav mx-auto ">
                 <li><a href="ns.html">Nossa história</a></li>
                 <li><a href="cap.html">Conhecendo a profissão</a></li>
@@ -46,14 +45,96 @@
                 <li><a href="dep.html">Depoimentos</a></li>
                 <li><a href="bonus.html">Bônus</a></li>
             </ul>
-            <button><img src="../imagens/icone.copia.png " id=icone width="50 " height="50 " ALIGN=CENTER onclick="copyUrlBrowser() " /></button>
+            <button class="mt-3" style="background: black; border: none; margin: auto; display: block;"><img src="../imagens/copy-svgrepo-com.svg" id=icone width="50 " height="50 " ALIGN=CENTER onclick="copyUrlBrowser()" /></button>
         </div>
 
     </nav>
+
+    <main class="container">
+        <div class="d-flex">
+            <img class="banner" style="border-radius: 60px;" src="../imagens/templatens.jpg " width="600" height="350" ALING=CENTE />
+            <div class="text">
+                <h2 class="title">NOSSA HISTÓRIA</h2>
+                <p class=" text-light">
+                    Esse projeto foi criado a fim de apoiar pessoas interessadas em ingressar na área de desenvolvimento de sistemas, fazendo com que elas tenham um melhor direcionamento e maior entendimento quanto a essa área de conhecimento. Considerando os objetivos do
+                    projeto em ampliar conhecimento na área específica e, considerando a expansão do mercado e a demanda não suprida de profissionais, o público-alvo não tem limitação por faixa etária. Sendo assim, temos os seguintes integrantes:
+                </p>
+            </div>
+        </div>
+
+        <div style="margin-top: 4rem;" class="cardContainer">
+            <div>
+                <div class="card card1">
+                    <img src="../imagens/BARBARA.png" height="200px" class="card-img-top card-img" alt="...">
+                    <div class="card-body justify-content-center align-items-center d-flex flex-column">
+                        <h5 style="color: white;" class="card-title text-center">Barbara B. Cavalcante</h5>
+                        <a href="https://www.linkedin.com/in/barbara-benedetti-93225819b/" target="_blank" class="btn btn-dark text-center">Linkedin</a>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="card card2">
+                    <img src="../imagens/Jair.png" height="200px" class="card-img-top card-img" alt="...">
+                    <div class="card-body justify-content-center align-items-center d-flex flex-column">
+                        <h5 style="color: white;" class="card-title text-center">Jair Junio da Silva</h5>
+                        <a href="https://www.linkedin.com/in/jairjuniodasilva/" target="_blank" class="btn btn-dark text-center">Linkedin</a>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="card card3">
+                    <img src="../imagens/Marcelo.png" height="200px" class="card-img-top card-img" alt="...">
+                    <div class="card-body justify-content-center align-items-center d-flex flex-column">
+                        <h5 style="color: white;" class="card-title text-center">Marcelo A. Barbosa</h5>
+                        <a href="https://www.linkedin.com/in/marcelo-barbosa-a23a9020b/" target="_blank" class="btn btn-dark text-center">Linkedin</a>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="card card4">
+                    <img src="../imagens/Paola.png" height="200px" class="card-img-top card-img" alt="...">
+                    <div class="card-body justify-content-center align-items-center d-flex flex-column">
+                        <h5 style="color: white;" class="card-title text-center">Paola M. V. Oliveira</h5>
+                        <a href="https://www.linkedin.com/in/paolamarsura/" target="_blank" class="btn btn-dark text-center">Linkedin</a>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="card card5">
+                    <img src="../imagens/stephanie.png" height="200px" class="card-img-top card-img" alt="...">
+                    <div class="card-body justify-content-center align-items-center d-flex flex-column">
+                        <h5 style="color: white;" class="card-title text-center">Stefanny R. Silva</h5>
+                        <a href="https://www.linkedin.com/in/stefanny-silva-065777235/" target="_blank" class="btn btn-dark text-center">Linkedin</a>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="card card6">
+                    <img src="../imagens/waldirene.png" height="200px" class="card-img-top card-img" alt="...">
+                    <div class="card-body justify-content-center align-items-center d-flex flex-column">
+                        <h5 style="color: white;" class="card-title text-center">Waldirene N. R. Braga</h5>
+                        <a href="https://www.linkedin.com/in/waldirene-braga-0265b882/" target="_blank" class="btn btn-dark text-center">Linkedin</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <button class="NextPageBtn">
+  <a href="../html/cap.html">
+    <img src="../imagens/right-arrow-svgrepo-com.svg" alt="">    
+  </a>
+
+</button>
+
+    </main>
+
+    <script src="../javascript/ns.js"></script>
     <!-- link cdn bootstrap -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN " crossorigin="anonymous "></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q " crossorigin="anonymous "></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl " crossorigin="anonymous "></script>
 </body>
+
 
 </html>

@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background: #000;
+  font-family: 'Sanchez', serif;
+}
+.navbar li {
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1em;
+  padding-left: 1em;
+  background-color: #000;
+}
+
+.navbar a {
+  color: #bf0436;
+  width: 1em 1em;
+  background-color: #000;
+  text-align: center;
+  display: block;
+  padding: 1em;
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+}
+
+.navbar a:hover {
+  color: #f8d8dd;
+  font-size: 1.1em;
+  cursor: pointer;
+}
+
+#icone:hover {
+  width: 4em;
+  height: 4em;
+  cursor: pointer;
+}
+
+#icone:onclick {
+  width: 1em;
+  height: 1em;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white !important;
+}
+
+.carousel {
+  max-width: 70%;
+  height: auto;
+  margin: 0 auto;
+  padding: 1em;
+  position: relative;
+  transition: transform 2s ease, opacity 0.2s ease-out;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white !important;
+}
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 991px) {
+  #icone {
+    width: 35px;
+    height: 35px;
+  }
+}

@@ -1,56 +1,93 @@
-* {
-    background-color: #000;
+/*Configuração da seção*/
+
+section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 2rem;
+  width: calc(100vw - 4rem); /*4rem -> margin left + right*/
 }
 
-
-/* dimensionamento de caixa */
-
-*,
-*::before,
-*::after .selector-for-some-widget {
-    box-sizing: border-box;
+section p {
+  padding: 1rem 5rem;
+  color: white;
+  text-align: justify;
 }
 
-body {
-    font-family: 'Sanchez', sans-serif;
+section h2 {
+  color: pink;
 }
 
-.navbar li {
-    display: inline-block;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 1em;
-    padding-left: 1em;
-    background-color: #000;
+#return {
+  border: none;
+  background: #000;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+}
+h2 {
+  text-align: center;
 }
 
-.navbar a {
-    color: #BF0436;
-    width: 1em 1em;
-    background-color: #000;
-    text-align: center;
-    display: block;
-    padding: 1em;
-    font-size: 1em;
-    text-transform: uppercase;
-    font-weight: bold;
-    text-align: center;
+/* BOTÕES */
+.containerBtns {
+  margin: 2.5rem 2rem;
+  width: calc(100vw - 4rem); /*4rem -> margin left + right*/
 }
-
-.navbar a:hover {
-    color: #F8D8DD;
-    font-size: 1.00em;
-    cursor: pointer;
-    text-decoration: none;
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
 }
-
-#icone:hover {
-    width: 4em;
-    height: 4em;
-    cursor: pointer;
+.buttons button:hover {
+  background: rgba(146, 19, 146, 0.5);
+  transition: background 0.5s;
 }
-
-#icone:onclick {
-    width: 1em;
-    height: 1em;
+.buttons a {
+  color: rgb(235, 144, 159);
+}
+.containerBtns button {
+  background: rgb(146, 19, 146);
+  border: none;
+  border-radius: 60px;
+  font-size: larger;
+  font-weight: bold;
+  padding: 1rem;
+}
+.cardButtons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+@media (max-width: 800px) {
+  .containerBtns button {
+    font-size: medium;
+  }
+}
+@media (max-width: 723px) {
+  .buttons button {
+    width: 100%;
+  }
+  section p {
+    padding: 0;
+    margin: 0 2rem;
+  }
+  .cardButtons a {
+    width: 100%;
+    margin-top: 2rem;
+  }
+}
+@media (max-width: 450px) {
+  section p {
+    margin: 0;
+    font-size: small;
+  }
+  section h2 {
+    font-size: larger;
+    margin-bottom: 2rem;
+  }
 }
