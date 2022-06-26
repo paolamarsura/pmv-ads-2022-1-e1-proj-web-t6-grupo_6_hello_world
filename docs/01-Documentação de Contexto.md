@@ -27,10 +27,6 @@ Com o crescimento de oportunidades na tecnologia, muitos se interessam em ingres
 
 Através da criação de um portal de informações para auxiliar os novos desenvolvedores nos primeiros passos na área da programação, será possível facilitar o acesso às informações aumentando a capacitação dos profissionais na área de desenvolvimento de sistemas, além de contribuir para uma maior adaptação dos trabalhadores às novas exigências do mercado, aumento assim a empregabilidade. 
 
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
 
 ## Objetivos
 
@@ -61,10 +57,6 @@ Há uma falta de canais de informação que apresentem o mundo da tecnologia de 
 Logo o desenvolvimento deste projeto ajudaria na capacitação profissional na área de desenvolvimento de sistemas, além de incentivar e facilitar o processo de migração de carreira e aumento da empregabilidade.
 
 
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
-
 ## Público-Alvo
 
 Embora todas as pessoas possam se beneficiar das informações apresentadas no site, o público-alvo são os profissionais iniciantes na área de desenvolvimento de sistemas, seja profissionais em migração de carreira e/ou público geral que se interessa por tecnologia.
@@ -73,8 +65,3 @@ Esse projeto foi criado a fim de apoiar pessoas interessadas em ingressar na ár
 
 Considerando os objetivos do projeto em ampliar conhecimento na área específica e, considerando a expansão do mercado e a demanda não suprida de profissionais, o público-alvo não tem limitação por faixa etária.
 
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
