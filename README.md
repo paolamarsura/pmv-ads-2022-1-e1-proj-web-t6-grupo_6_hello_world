@@ -23,7 +23,7 @@ A finalidade do projeto consiste na criação de um portal que apresente ferrame
 
 ## Instruções de utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+Execute o código fonte disponível neste repositório no VS Code (ou similar), após "Open to Live Server" e conheça o portal Hello World.
 
 # Documentação
 
