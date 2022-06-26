@@ -49,7 +49,7 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 
 # Apresentação
 
-<li><a href="presentation/README.md"> Apresentação da solução</a></li>
-<li><a href="https://player.vimeo.com/video/724166322?h=eca90783ac"> Vídeo - Hello World</a></li>
+<li><a href="https://player.vimeo.com/video/724166322?h=eca90783ac"> Apresentação da solução
+Worl</a></li>
 
 
