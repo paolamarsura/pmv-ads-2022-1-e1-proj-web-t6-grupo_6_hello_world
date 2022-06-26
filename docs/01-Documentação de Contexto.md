@@ -40,9 +40,7 @@ A finalidade do projeto consiste na criação de um portal que apresente ferrame
 •	dar dicas sobre a transição de carreira, com depoimentos reais (Dicas gerais de como estudar, o que estudar, linkedin e etc.);
 •	dar ênfase em boas práticas, relacionadas à carreira do desenvolvedor.
 
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+
 
 ## Justificativa
 
