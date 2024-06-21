@@ -1,0 +1,26 @@
+message: Please cite this software using these metadata.
+title: PORTAL "HELLO WORLD"
+authors:
+  - family-names: Benedetti Cavalcante
+    given-names:  Barbara
+  - family-names: Junio da Silva
+    given-names: Jair
+  - family-names: Amorim Barbosa
+    given-names: Marcelo
+  - family-names: Marsura Verreschi de Oliveira
+    given-names: Paola
+  - family-names: Rodrigues Silva
+    given-names: Stefanny
+  - family-names: Noronha Rodrigues Braga
+    given-names: Waldirene
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Assis Valentim
+    given-names: Nathália
+keywords:
+  - Portal
+  - HelloWorld
+  - Dev
+repository-code: https://github.com/paolamarsura/pmv-ads-2022-1-e1-proj-web-t6-grupo_6_hello_world
+version: 1.0.0
+date-released: 2022-06-26
